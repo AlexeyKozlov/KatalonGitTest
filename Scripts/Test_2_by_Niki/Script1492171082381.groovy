@@ -25,7 +25,7 @@ WebUI.acceptAlert()
 
 WebUI.navigateToUrl('https://www.google.com/?gws_rd=ssl')
 
-WebUI.setText(findTestObject('Page_Google/input_q'), 'Russian Easter')
+WebUI.setText(findTestObject('Page_Google/input_q'), 'Russian Easter Week')
 
 WebUI.closeBrowser()
 
